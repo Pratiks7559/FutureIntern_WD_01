@@ -1,0 +1,212 @@
+/* Reset and global styles */
+body, h1, h2, h3, p, a, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #f0f0f0;
+  color: #333;
+}
+#sir{
+  color: red;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar */
+nav {
+  background: #333;
+  padding: 10px 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff5733;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+/* Header */
+header {
+  background: url('https://wallpapers.com/images/featured/hotel-background-sdr508awonqxixqe.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+}
+
+header .btn {
+  padding: 10px 20px;
+  background: #444;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+header .btn:hover {
+  background: #666;
+}
+
+/* About Section */
+.about {
+  padding: 60px 0;
+  background: #fff;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Rooms Section */
+.rooms {
+  padding: 60px 0;
+  background: #f9f9f9;
+}
+
+.rooms h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #444;
+}
+
+.room-box {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.room-box img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.room-box h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.room-box p {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: #666;
+}
+
+/* Amenities Section */
+.amenities {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.amenities h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #444;
+}
+
+.amenity-box {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.amenity-box img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.amenity-box h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.amenity-box p {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: #666;
+}
+
+/* Contact Section */
+.contact {
+  padding: 60px 0;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.contact p {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
